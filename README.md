@@ -1,2 +1,0 @@
-# functions-python
-python functions
