@@ -14,8 +14,8 @@ Data_1D = np.array(Data_1D)#ndarray
 Data_2D = np.array(Data_2D)#ndarray
 
 ##import CSV
-#df = pd.read_csv("amp.csv",encoding='UTF-8', header=None, engine='python') # File名を入力
-#data1 = df.values[1:,1:,] #カラムを除いたデータ読み込み
+#df = pd.read_csv("amp.csv",encoding='UTF-8', header=None, engine='python') 
+#data1 = df.values[1:,1:,] 
 
 ##2D matrix
 _x=Data_2D[0,:]#[1 2 3 4 5 6 7 8 9]
