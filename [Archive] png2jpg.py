@@ -14,6 +14,9 @@ dirname, basename = os.path.split(target_dir )
 save_dir=os.getenv("HOMEDRIVE") + os.getenv("HOMEPATH") + "/Desktop/"+basename+"_jpg/"
 if not os.path.exists(save_dir): 
     os.makedirs(save_dir)
+if not os.path.exists(save_dir): 
+    print('exit same name folder')
+    sys.exit()
 
 #png 
 def png2jpg(path_png,path_jpg):
